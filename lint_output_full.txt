@@ -1,0 +1,14 @@
+
+> mental-health-tracker@0.1.0 lint
+> next lint
+
+
+./app/not-found.tsx
+29:43  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+29:94  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+29:115  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./components/SerenityFlow.tsx
+104:9  Warning: React Hook useMemo has missing dependencies: 'size.height' and 'size.width'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
